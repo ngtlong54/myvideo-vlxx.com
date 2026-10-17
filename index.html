@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vĩnh Long Xa Xôi - Video Của Tôi</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #121212;
+            color: #ffffff;
+        }
+        /* Header */
+        header {
+            background-color: #1f1f1f;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #333;
+        }
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .logo span {
+            background-color: #ff9900;
+            color: #000000;
+            padding: 2px 8px;
+            border-radius: 4px;
+            margin-left: 2px;
+        }
+        .search-bar {
+            padding: 8px 15px;
+            width: 300px;
+            background-color: #2b2b2b;
+            border: 1px solid #444;
+            border-radius: 20px;
+            color: white;
+            outline: none;
+        }
+        /* Main Container */
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        .video-title {
+            font-size: 22px;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        /* Video Wrapper */
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* Tỷ lệ khung hình 16:9 */
+            background-color: #000;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        /* Footer info */
+        .video-info {
+            margin-top: 15px;
+            color: #aaa;
+            font-size: 14px;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #333;
+            padding-bottom: 15px;
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #666;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">Vĩnh Long<span>Xa Xôi</span></a>
+        <input type="text" class="search-bar" placeholder="Tìm kiếm video ngô khác...">
+    </header>
+
+    <div class="container">
+        <div class="video-title">🌽 Ông chú U40 cùng vui vẻ cùng nữ sinh Nhật Bản</div>
+        
+        <div class="video-container">
+            <iframe src="https://drive.google.com/file/d/1t1qZpzQjZsC4HWOeKAFB84_-gNIKrOYC/preview" allow="autoplay" allowfullscreen></iframe>
+        </div>
+
+        <div class="video-info">
+            <span>Lượt xem: 36,024,580 • Tải lên bởi: TienLong</span>
+            <span>👍 Thích &nbsp;&nbsp; 👎 Không thích &nbsp;&nbsp; 📥 Tải xuống</span>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Tien Long dep chai</p>
+    </footer>
+
+</body>
+</html>
